@@ -14,5 +14,4 @@ cv2.putText(img,'My Best Singer',(100,400), font, 3,(255,255,255),2,cv2.LINE_AA)
 cv2.imshow("image",img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-cv2 .imwrite("resimler/image.jpeg",img)
-
+cv2 .imwrite("image.jpeg",img)
